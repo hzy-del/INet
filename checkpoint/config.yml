@@ -43,13 +43,11 @@ MASK_THRESHOLD: 0               # 100 dunhuang
 GPU: [0]            # list of gpu ids
 BATCH_SIZE: 3                 # input batch size for training
 
-# SAVE_INTERVAL: 10000          # how many iterations to wait before saving model (0: never)
-# EVAL_INTERVAL: 2000             # how many iterations to wait before model evaluation (0: never)
+
 SAVE_INTERVAL: 100       # how many iterations to wait before saving model (0: never)
 EVAL_INTERVAL: 100           # how many iterations to wait before model evaluation (0: never)
 
-# TRAIN_SAMPLE_INTERVAL: 1000
-# EVAL_SAMPLE_INTERVAL: 200
+
 
 TRAIN_SAMPLE_INTERVAL: 100
 EVAL_SAMPLE_INTERVAL: 100
